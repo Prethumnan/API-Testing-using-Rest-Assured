@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Automation Suite" parallel="false" verbose="1">
+
+
+    <listeners>
+        <listener class-name="Listener"/>
+    </listeners>
+
+    <!-- Define your test -->
+    <test name="API Tests">
+
+        <!-- Specify the classes containing test methods -->
+        <classes>
+            <class name="User.User"/>
+            <class name="Brands.Brands"/>
+            <class name="Products.Products"/>
+            <class name="Auth.Auth"/>
+            <class name="User.SuiteCleanup"/>
+        </classes>
+
+    </test>
+
+</suite>
