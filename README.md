@@ -34,18 +34,18 @@ The project follows a standard, modular structure for scalability:
 
 ---
 
-## 🚀 Getting Started
+## 📊 Viewing the Report
+After test execution, the detailed report is generated in the target directory:
 
-Follow these steps to set up and run the test suite locally.
+1. Navigate to the target folder  
+2. Open **ExtentReport.html** in any web browser  
 
-### 1. Prerequisites
+---
 
-* **Java Development Kit (JDK) 8+**
-* **Maven**
-* An IDE like **Eclipse** or **IntelliJ IDEA**
+## 📞 Contact
+For any questions or feedback regarding this automation framework:
 
-### 2. Clone the Repository
+- **Name**: Prethumnan  
+- **GitHub**: [https://github.com/Prethumnan](https://github.com/Prethumnan)  
+- **Email**: prethumnan77@gmail.com  
 
-```bash
-git clone [Your-GitHub-Repository-URL]
-cd RestAssured-testing
